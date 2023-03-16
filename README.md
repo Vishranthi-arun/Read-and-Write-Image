@@ -23,33 +23,44 @@ End the program and close the output image windows.
 ### Register Number: 
 i) #To Read,display the image
 ```
-  
-
+import cv2
+color= cv2.imread('flower.png',1)
+cv2.imshow('212221230124 VISHRANTHI A',color)
+cv2.waitKey(0)
 ```
 ii) #To write the image
 ```
-
-
-
+import cv2
+color= cv2.imread('flower.png',1)
+cv2.imwrite('VISHRANTHI A.png',color)
 ```
 iii) #Find the shape of the Image
-```python3
-
-
-
+```
+import cv2
+color= cv2.imread('flower.png',1)
+print(color.shape)
 ```
 iv) #To access rows and columns
 
-```python3
-
-
-
+```
+import cv2
+import random
+color= cv2.imread('flower.png',1)
+for i in range(100):
+    for j in range(color.shape[1]):
+        color[i][j] = [random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow('212221230124 VISHRANTHI A',color)
+cv2.waitKey(0)
 ```
 v) #To cut and paste portion of image
-```python3
-
-
-
+```
+import cv2
+color= cv2.imread('flower.png',1)
+tag=color[200:300,200:300]
+color[100:200,100:200]=tag
+cv2.imshow('212221230124 VISHRANTHI A',color)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 ```
 
 ## Output:
@@ -75,6 +86,8 @@ v) #To cut and paste portion of image
 
 ### v)Cut and paste portion of image
 <br>
+![image](https://user-images.githubusercontent.com/93427278/225696329-49dfd696-f096-472f-91ae-772a248fe453.png)
+
 <br>
 
 ## Result:
