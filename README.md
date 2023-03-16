@@ -66,28 +66,19 @@ cv2.destroyAllWindows()
 ## Output:
 
 ### i) Read and display the image
-
-<br>
-<br>
+![1](https://user-images.githubusercontent.com/93427278/225696845-142748d3-978e-488e-a396-88c27999ab00.png)
 
 ### ii)Write the image
-
-<br>
-<br>
+![2](https://user-images.githubusercontent.com/93427278/225696874-e595c18a-8785-47de-bd14-c41b4bd62be0.png)
 
 ### iii)Shape of the Image
-
-<br>
-<br>
+![3](https://user-images.githubusercontent.com/93427278/225696921-1af7a038-03cc-4b6d-8147-e085df8b8daa.png)
 
 ### iv)Access rows and columns
-<br>
-<br>
+![4](https://user-images.githubusercontent.com/93427278/225696986-9864a3ef-78c6-4252-b195-3cb181539c98.png)
 
 ### v)Cut and paste portion of image
-
-![image](https://user-images.githubusercontent.com/93427278/225696329-49dfd696-f096-472f-91ae-772a248fe453.png)
-
+![5](https://user-images.githubusercontent.com/93427278/225697019-ff35aeaf-c2ea-416f-9e79-646fbd1f2641.png)
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
