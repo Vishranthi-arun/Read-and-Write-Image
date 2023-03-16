@@ -3,8 +3,8 @@
 To write a python program using OpenCV to do the following image manipulations.
 <br>
 
-i) Read, display, and write an image.
-ii) Access the rows and columns in an image.
+i) Read, display, and write an image.<br>
+ii) Access the rows and columns in an image.<br>
 iii) Cut and paste a small portion of the image.
 <br>
 ## Software Required:
